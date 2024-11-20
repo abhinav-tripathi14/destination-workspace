@@ -3,6 +3,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "destination-workspace"
+  name     = "source-workspace"
 location = "East US"
 }
